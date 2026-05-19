@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doro's Pizza - Authentic Italian Pizzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🍕 Doro's Pizza</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Doro's Pizza</h1>
+            <p>Authentic Italian Pizzas Crafted with Love</p>
+            <button class="btn btn-primary" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>Margherita</h3>
+                    <p>Tomato sauce, mozzarella, fresh basil</p>
+                    <span class="price">$12.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>Pepperoni</h3>
+                    <p>Tomato sauce, mozzarella, pepperoni</p>
+                    <span class="price">$14.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>Vegetarian</h3>
+                    <p>Tomato sauce, mozzarella, bell peppers, mushrooms, onions</p>
+                    <span class="price">$13.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>Four Cheese</h3>
+                    <p>Mozzarella, parmesan, gorgonzola, ricotta</p>
+                    <span class="price">$15.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>BBQ Chicken</h3>
+                    <p>BBQ sauce, chicken, onions, cilantro</p>
+                    <span class="price">$15.99</span>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">🍕</div>
+                    <h3>Meat Lovers</h3>
+                    <p>Pepperoni, sausage, bacon, ham</p>
+                    <span class="price">$16.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                Doro's Pizza has been serving authentic Italian pizzas since 2020. Our commitment to quality ingredients 
+                and traditional recipes ensures every pizza is a masterpiece. We believe in using fresh, locally-sourced 
+                ingredients to create memorable dining experiences for our customers.
+            </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>🌿 Fresh Ingredients</h3>
+                    <p>Only the finest, freshest ingredients</p>
+                </div>
+                <div class="feature">
+                    <h3>🔥 Authentic Recipes</h3>
+                    <p>Traditional Italian pizza methods</p>
+                </div>
+                <div class="feature">
+                    <h3>⚡ Fast Delivery</h3>
+                    <p>Hot pizzas delivered quickly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Address</h3>
+                        <p>123 Pizza Street<br>New York, NY 10001</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📞 Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📧 Email</h3>
+                        <p>info@dorospizza.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 Hours</h3>
+                        <p>Mon-Fri: 11am - 11pm<br>Sat-Sun: 12pm - 12am</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Doro's Pizza. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
